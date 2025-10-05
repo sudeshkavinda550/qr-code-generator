@@ -13,10 +13,10 @@
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![QR Code](https://img.shields.io/badge/QR_Code-000000?style=for-the-badge&logo=qrcode&logoColor=white)
 
-[![GitHub Stars](https://img.shields.io/github/stars/sudeshkavinda550/qr-code-generator)?style=social)](https://github.com/yourusername/qr-code-image-generator/stargazers)
-[![GitHub Forks](https://img.shields.io/github/forks/yourusername/qr-code-image-generator?style=social)](https://github.com/yourusername/qr-code-image-generator/network/members)
-[![GitHub Issues](https://img.shields.io/github/issues/yourusername/qr-code-image-generator)](https://github.com/yourusername/qr-code-image-generator/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/yourusername/qr-code-image-generator)](https://github.com/yourusername/qr-code-image-generator/pulls)
+[![GitHub Stars](https://img.shields.io/github/stars/sudeshkavinda550/qr-code-generator?style=social)](https://github.com/sudeshkavinda550/qr-code-generator/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/sudeshkavinda550/qr-code-generator?style=social)](https://github.com/sudeshkavinda550/qr-code-generator/network/members)
+[![GitHub Issues](https://img.shields.io/github/issues/sudeshkavinda550/qr-code-generator)](https://github.com/sudeshkavinda550/qr-code-generator/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/sudeshkavinda550/qr-code-generator)](https://github.com/sudeshkavinda550/qr-code-generator/pulls)
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700">
 
@@ -35,10 +35,7 @@ This project was developed to solve the challenge of **efficient photo distribut
 ### 🎪 Built For Real-World Events
 - Exhibition stalls and trade shows
 - University events and career fairs
-- Photo booths at conferences
-- Corporate events and gatherings
 - Community festivals and public events
-- Brand activation campaigns
 
 <br clear="right"/>
 
@@ -68,13 +65,14 @@ This project was developed to solve the challenge of **efficient photo distribut
 <div align="center">
 
 ```mermaid
-graph LR
-    A[📷 Capture Photo] --> B[🔄 Process Image]
-    B --> C[🔐 Generate QR Code]
-    C --> D[📱 Display QR Code]
-    D --> E[👤 Visitor Scans]
-    E --> F[🖼️ View Photo]
-    F --> G[📥 Download]
+graph TD
+    A[📷 Capture Photo]
+    B[🔄 Process Image]
+    C[🔐 Generate QR Code]
+    D[📱 Display QR Code]
+    E[👤 Visitor Scans]
+    F[🖼️ View Photo]
+    G[📥 Download]
     
     style A fill:#ff6b6b
     style C fill:#4ecdc4
@@ -88,7 +86,7 @@ graph LR
 
 1. **📸 Capture** - Take visitor's photo using device camera or upload
 2. **⚙️ Generate** - System creates a unique QR code linked to the photo
-3. **🎫 Share** - QR code is displayed/printed for the visitor
+3. **🎫 Share** - QR code is displayed for the visitor
 4. **📱 Scan** - Visitor scans QR code with their smartphone
 5. **💾 Download** - Photo is displayed and can be saved instantly
 
@@ -102,7 +100,7 @@ graph LR
 <tr>
 <td align="center" width="25%">
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" width="80" height="80" alt="HTML5"/>
-<br><strong>HTML5</strong>
+<br><strong>HTML</strong>
 <br>Structure & Markup
 </td>
 <td align="center" width="25%">
@@ -112,7 +110,7 @@ graph LR
 </td>
 <td align="center" width="25%">
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" width="80" height="80" alt="CSS3"/>
-<br><strong>CSS3</strong>
+<br><strong>CSS</strong>
 <br>Styling & Design
 </td>
 <td align="center" width="25%">
@@ -125,3 +123,7 @@ graph LR
 
 </div>
 
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
+
+</div>
